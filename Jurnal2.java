@@ -15,7 +15,9 @@ class Inventory<T> {
 
     // Setter hapus item
     public void deleteItems(T barang) {
-        items.remove(barang);
+        int index = items.indexOf(barang);
+        if (index != -1)
+            items.remove(index);
     }
 
     // Setter edit item
