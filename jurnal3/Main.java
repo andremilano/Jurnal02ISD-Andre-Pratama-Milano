@@ -93,7 +93,7 @@ public class Main {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Baca Tomlol pilihannya cuma smpe 4");
+                    System.out.println("Pilihan Tidak Tersedia");
             }
         }
     }
